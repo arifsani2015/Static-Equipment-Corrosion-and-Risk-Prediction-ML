@@ -1,0 +1,14 @@
+# Streamlit >= 1.49 is REQUIRED: the code uses width='stretch' (<= 1.48 crashes).
+streamlit>=1.49,<2
+pandas
+numpy
+# Use the SAME versions of the next three packages as the Kaggle environment
+# the models were trained in (see README) -- pickled models may fail or give
+# different results across versions.
+scikit-learn
+xgboost
+lightgbm
+catboost
+shap
+matplotlib
+openpyxl
