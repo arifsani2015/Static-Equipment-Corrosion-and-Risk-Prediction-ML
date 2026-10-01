@@ -5,7 +5,7 @@ numpy
 # Use the SAME versions of the next three packages the models were trained with (see
 # README) -- pickled models may fail or give different results across versions.
 # The Settings page of the running app shows the scikit-learn version to use.
-scikit-learn
+scikit-learn==1.6.1
 xgboost
 lightgbm
 catboost
