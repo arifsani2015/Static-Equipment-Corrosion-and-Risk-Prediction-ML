@@ -19,8 +19,8 @@ add GITHUB_TOKEN to the app's Secrets on Streamlit Cloud (see README). Never
 write the token in this file.
 """
 REMOTE_CHECKPOINTS = [
-    # {"filename": "checkpoint_reg_No-Aug_Optuna.pkl",
-    #  "url": "https://github.com/arifsani2015/Static-Equipment-Corrosion-and-Risk-Prediction-ML/releases/download/checkpoints-v1/checkpoint_reg_No-Aug_Optuna.pkl"},
-    # {"filename": "checkpoint_p2_selected_No-Aug_Optuna.pkl",
-    #  "url": "https://github.com/arifsani2015/Static-Equipment-Corrosion-and-Risk-Prediction-ML/releases/download/checkpoints-v1/checkpoint_p2_selected_No-Aug_Optuna.pkl"},
+    {"filename": "checkpoint_reg_No-Aug_Optuna.pkl",
+     "url": "https://github.com/arifsani2015/Static-Equipment-Corrosion-and-Risk-Prediction-ML/releases/download/checkpoints-v1/checkpoint_reg_No-Aug_Optuna.pkl"},
+    {"filename": "checkpoint_p2_selected_No-Aug_Default.pkl",
+     "url": "https://github.com/arifsani2015/Static-Equipment-Corrosion-and-Risk-Prediction-ML/releases/download/checkpoints-v1/checkpoint_p2_selected_No-Aug_Default.pkl"},
 ]
